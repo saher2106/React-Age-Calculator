@@ -1,0 +1,35 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 5px;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+.button-container {
+  margin-bottom: 15px;
+}
+
+.calculate-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Adds rounded edges */
+}
+
